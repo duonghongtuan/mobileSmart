@@ -1,0 +1,38 @@
+.menuAdmin{
+    display: flex;
+    flex-direction: row;
+}
+.menu{
+    position: fixed;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    border: 2px solid #28a745;
+    padding: 0.2em;
+    margin-top: 2em;
+}
+.tabMenu{
+    
+    height: 2em;
+    padding-left: 1em;
+    font-size: 1.2em;
+    color: white;
+    border: 2px solid;
+    background-color: #28a745
+}
+.admin{
+    text-align: center;
+    color: red;
+}
+.activeMenu{
+    color:blue;
+}
+.mainMenu{
+    width: 80%;
+    margin-left: 21vw;
+}
+.tabMenu :hover{
+    text-decoration: none;
+    color: blue;
+}

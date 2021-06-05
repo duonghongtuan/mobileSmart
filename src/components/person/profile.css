@@ -1,0 +1,25 @@
+.container-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    width: 20%;
+    padding: 1em;
+    border: 2px solid #007bff;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+
+}
+.divcenter{
+    width: 100%;
+    text-align: center;
+}
+.history{
+    width: 80%;
+}
+.title-history{
+    color:  #007bff;
+}

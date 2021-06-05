@@ -1,0 +1,64 @@
+.listProducts{
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    margin-left: 0.2em;
+    margin-bottom: 20px;
+    padding: 10px;
+    float: left;
+}
+.listProducts :hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+#price{
+    color: crimson;
+    font-weight: bold;
+}
+.link :hover{
+    text-decoration: none;
+}
+.img{
+    max-width: 12em;
+    max-height: 12em;
+}
+.name{
+    color: #007bff;
+}
+/* SearchProduct */
+.s-product{
+    display: flex;
+    flex-direction: row;
+    width: 17em;
+    background-color: white; 
+    padding: 1em;
+    border-top: 1px solid #007bff;
+    cursor: pointer;
+}
+ 
+/* trang home */
+.iphone{
+    margin-top: -2em;
+}
+.phone{
+    font-weight: bold;
+    text-align: center;
+    width: 7em;
+    margin-left: 2em;
+}
+.phone{
+    animation: colorBackground 0.5s infinite;
+    -webkit-animation: colorBackground 5s infinite;
+    -moz-animation: colorBackground 5s infinite;
+    -o-animation: colorBackground 0.5s infinite
+    }
+    @keyframes colorBackground {
+    0% {
+    background-color: yellowgreen;
+    color: white;
+    }
+    50% {
+    background-color: red;
+    color: rgb(12, 11, 11);
+    }
+    }

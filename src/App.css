@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+.nav-link .active {
+  color:#007bff;
+}
+.logo {
+  display: inline-block;
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+}
+.navbar-dark .navbar-brand {
+  color: #ffffff;
+  font-style:italic;
+}
+.nav-link :hover{
+  color:#007bff;
+  text-decoration: none;
+}
+a{
+  color:#ffffff;
+}
+.column{
+  position: absolute;
+  z-index: 30;
+  width: 20%;
+  top: 4.2em;
+}
+.header{
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
